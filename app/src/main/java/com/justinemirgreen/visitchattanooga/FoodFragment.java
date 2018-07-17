@@ -21,9 +21,9 @@ public class FoodFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(R.string.loc_eight_name, R.string.loc_eight_address, R.string.loc_eight_description, R.drawable.urbanstack));
-        locations.add(new Location(R.string.loc_nine_name, R.string.loc_nine_address, R.string.loc_nine_description, R.drawable.publichousechattanooga));
-        locations.add(new Location(R.string.loc_ten_name, R.string.loc_ten_address, R.string.loc_ten_description, R.drawable.sluggosnorthvegetariancafe));
+        locations.add(new Location(R.string.urban_stack_name, R.string.urban_stack_address, R.string.urban_stack_description, R.drawable.urbanstack));
+        locations.add(new Location(R.string.public_house_name, R.string.public_house_address, R.string.public_house_description, R.drawable.publichousechattanooga));
+        locations.add(new Location(R.string.sluggos_name, R.string.sluggos_address, R.string.sluggos_description, R.drawable.sluggosnorthvegetariancafe));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

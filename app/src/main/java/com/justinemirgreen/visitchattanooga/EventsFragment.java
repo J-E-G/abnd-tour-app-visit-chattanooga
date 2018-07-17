@@ -21,9 +21,9 @@ public class EventsFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(R.string.loc_five_name, R.string.loc_five_address, R.string.loc_five_description, R.drawable.riverbendfestival));
-        locations.add(new Location(R.string.loc_six_name, R.string.loc_six_address, R.string.loc_six_description, R.drawable.coolidgepark));
-        locations.add(new Location(R.string.loc_seven_name, R.string.loc_seven_address, R.string.loc_seven_description, R.drawable.chattanoogamarket));
+        locations.add(new Location(R.string.riverbend_name, R.string.riverbend_address, R.string.riverbend_description, R.drawable.riverbendfestival));
+        locations.add(new Location(R.string.coolidge_name, R.string.coolidge_address, R.string.coolidge_description, R.drawable.coolidgepark));
+        locations.add(new Location(R.string.chatt_market_name, R.string.chatt_market_address, R.string.chatt_market_description, R.drawable.chattanoogamarket));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

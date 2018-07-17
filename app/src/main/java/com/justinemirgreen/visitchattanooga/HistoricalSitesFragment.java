@@ -21,9 +21,9 @@ public class HistoricalSitesFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(R.string.loc_eleven_name, R.string.loc_eleven_address, R.string.loc_eleven_description));
-        locations.add(new Location(R.string.loc_twelve_name, R.string.loc_twelve_address, R.string.loc_twelve_description));
-        locations.add(new Location(R.string.loc_thirteen_name, R.string.loc_thirteen_address, R.string.loc_thirteen_description));
+        locations.add(new Location(R.string.choo_choo_name, R.string.choo_choo_address, R.string.choo_choo_description));
+        locations.add(new Location(R.string.civil_war_museum_name, R.string.civil_war_museum_address, R.string.civil_war_museum_description));
+        locations.add(new Location(R.string.chickamauga_dam_name, R.string.chickamauga_dam_address, R.string.chickamauga_dam_description));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

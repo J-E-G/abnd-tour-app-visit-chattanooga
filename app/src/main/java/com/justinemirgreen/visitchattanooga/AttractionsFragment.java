@@ -21,10 +21,10 @@ public class AttractionsFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(R.string.chattanooga_zoo_name, R.string.loc_one_address, R.string.loc_one_description, R.drawable.chatanoogazoo));
-        locations.add(new Location(R.string.loc_two_name, R.string.loc_two_address, R.string.loc_two_description, R.drawable.tennesseeaquarium));
-        locations.add(new Location(R.string.loc_three_name, R.string.loc_three_address, R.string.loc_three_description, R.drawable.rockcity));
-        locations.add(new Location(R.string.loc_four_name, R.string.loc_four_address, R.string.loc_four_description, R.drawable.lakewinnie));
+        locations.add(new Location(R.string.chattanooga_zoo_name, R.string.chattanooga_zoo_address, R.string.chattanooga_zoo_description, R.drawable.chatanoogazoo));
+        locations.add(new Location(R.string.tn_aquarium_name, R.string.tn_aquarium_address, R.string.tn_aquarium_description, R.drawable.tennesseeaquarium));
+        locations.add(new Location(R.string.rock_city_name, R.string.rock_city_address, R.string.rock_city_description, R.drawable.rockcity));
+        locations.add(new Location(R.string.lake_winnie_name, R.string.lake_winnie_address, R.string.lake_winnie_description, R.drawable.lakewinnie));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
