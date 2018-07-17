@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_view_bttm_padding">30dp</dimen>
+    <dimen name="list_item_txt_view_margin">8dp</dimen>
+    <dimen name="list_item_txt_view_zero_dp_width">0dp</dimen>
+    <dimen name="list_item_txt_view_loc_name_txt_size">20sp</dimen>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/list_view_bttm_padding">
+
+    <ImageView
+        android:id="@+id/locationImage"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/locationName"
+        android:layout_width="@dimen/list_item_txt_view_zero_dp_width"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/list_item_txt_view_margin"
+        android:layout_marginStart="@dimen/list_item_txt_view_margin"
+        android:layout_marginTop="@dimen/list_item_txt_view_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationImage"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/list_item_txt_view_loc_name_txt_size"/>
+
+    <TextView
+        android:id="@+id/locationAddress"
+        android:layout_width="@dimen/list_item_txt_view_zero_dp_width"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/list_item_txt_view_margin"
+        android:layout_marginStart="@dimen/list_item_txt_view_margin"
+        android:layout_marginTop="@dimen/list_item_txt_view_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationName"/>
+
+    <TextView
+        android:id="@+id/locationDescription"
+        android:layout_width="@dimen/list_item_txt_view_zero_dp_width"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/list_item_txt_view_margin"
+        android:layout_marginStart="@dimen/list_item_txt_view_margin"
+        android:layout_marginTop="@dimen/list_item_txt_view_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationAddress" />
+</android.support.constraint.ConstraintLayout>

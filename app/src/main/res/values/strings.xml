@@ -1,3 +1,83 @@
 <resources>
+    // App Name
     <string name="app_name">Visit Chattanooga</string>
+
+    // Attractions List Items
+    <string name="chattanooga_zoo_name">Chattanooga Zoo</string>
+    <string name="loc_one_address">301 N. Holtzclaw Ave, Chattanooga, TN 37404</string>
+    <string name="loc_one_description">The Chattanooga Zoo at Warner Park is a 13-acre zoological park located in Warner Park in Chattanooga, Tennessee.
+        The zoo was established in 1937 by the City of Chattanooga with the construction of two 4 by 6 feet cages for rhesus monkeys.</string>
+
+    <string name="loc_two_name">Tennessee Aquarium</string>
+    <string name="loc_two_address">One Broad Street, Chattanooga, TN 37402</string>
+    <string name="loc_two_description">The Tennessee Aquarium is a non-profit public aquarium located in Chattanooga, Tennessee, United States.
+        It opened in 1992 on the banks of the Tennessee River in downtown Chattanooga, with a major expansion added in 2005.
+        The Aquarium, which has been accredited by the Association of Zoos and Aquariums since 1993, is home to more than 12,000 animals
+        representing almost 800 species. </string>
+
+    <string name="loc_three_name">Rock City</string>
+    <string name="loc_three_address">1400 Patten Rd., Lookout Mountain, GA 30750</string>
+    <string name="loc_three_description">Located atop Lookout Mountain, 6 miles from downtown Chattanooga, Rock City is a marvel
+        of nature featuring ancient rock formations, gardens with over 400 native plant species, and
+        breathtaking "See 7 States" panoramic views. </string>
+
+    <string name="loc_four_name">Lake Winnepesaukah</string>
+    <string name="loc_four_address">1730 Lakeview Dr., Rossville, GA 30741</string>
+    <string name="loc_four_description">Lake Winnepesaukah, commonly known as Lake Winnie,
+        is an amusement park located in Rossville, Georgia, just south of Chattanooga, Tennessee.
+        Carl and Minette Dixon opened the park to over 5,000 guests on June 1, 1925.
+        They named it after the Native American word Winnepesaukah, meaning "bountiful waters" or
+        "beautiful lake of the highlands".  </string>
+
+    // Events List Items
+    <string name="loc_five_name">Riverbend Festival</string>
+    <string name="loc_five_address">200 Riverfront Parkway, Chattanooga, TN 37402</string>
+    <string name="loc_five_description">8 Days. 5 Stages. Nearly 100 Artists.</string>
+
+    <string name="loc_six_name">Movies in Coolidge Park</string>
+    <string name="loc_six_address">150 River Street, Chattanooga, TN 37405</string>
+    <string name="loc_six_description">Pack up your chairs, blankets and picnic baskets.
+        And get ready to watch a movie under the stars!</string>
+
+    <string name="loc_seven_name">Chattanooga Market</string>
+    <string name="loc_seven_address">1826 Reggie White Boulevard, Chattanooga, TN 37408 </string>
+    <string name="loc_seven_description">Named one of the “Top 10 Public Markets in America” by Frommers,
+        Chattanooga Market features over 50 farms bringing a variety of produce, meats and cheeses
+        to the market each week and over 130 artisans offering their unique crafts, arts,
+        farm-fresh goods, and so many other locally made specialties.</string>
+
+    // Food List Items
+    <string name="loc_eight_name">Urban Stack</string>
+    <string name="loc_eight_address">12 W 13th St, Chattanooga, TN 37402</string>
+    <string name="loc_eight_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Donec mattis vel dolor eu fringilla. Donec et ipsum eu tellus iaculis tincidunt eget nec nisi.</string>
+
+    <string name="loc_nine_name">Public House Chattanooga</string>
+    <string name="loc_nine_address">1110 Market St, Chattanooga, TN 37402</string>
+    <string name="loc_nine_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Donec mattis vel dolor eu fringilla. Donec et ipsum eu tellus iaculis tincidunt eget nec nisi.</string>
+
+    <string name="loc_ten_name">Sluggo\'s North Vegetarian Cafe</string>
+    <string name="loc_ten_address">501 Cherokee Blvd., Chattanooga, TN 37405</string>
+    <string name="loc_ten_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Donec mattis vel dolor eu fringilla. Donec et ipsum eu tellus iaculis tincidunt eget nec nisi.</string>
+
+    / History List Items
+    <string name="loc_eleven_name">Chattanooga Choo Choo</string>
+    <string name="loc_eleven_address">1400 Market Street, Chattanooga, TN 37402</string>
+    <string name="loc_eleven_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+    <string name="loc_twelve_name">Chttanooga Civil War Museum</string>
+    <string name="loc_twelve_address">3914 Street Elmo Avenue, Chattanooga, TN 37409</string>
+    <string name="loc_twelve_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+    <string name="loc_thirteen_name">Chickamauga Dam</string>
+    <string name="loc_thirteen_address">4795 Amnicola Highway, Chattanooga, TN 37402</string>
+    <string name="loc_thirteen_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+    // Tab Labels
+    <string name="category_events">Events</string>
+    <string name="category_food">Food</string>
+    <string name="category_attractions">Fun</string>
+    <string name="category_historical_sites">History</string>
 </resources>
